@@ -1,0 +1,204 @@
+
+
+ 
+ 
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+  body {
+    
+    font-family: "DM Serif Text", serif;
+    font-weight: 450;
+    font-style: normal;
+    color: #4D5053;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+
+  .navbar {
+    
+    
+    font-family: "Jost", sans-serif;
+   
+    font-size: 20;
+    
+    background-color: #f5f5f5;
+    padding: 20px 0;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 40px; 
+  }
+  
+  .nav-links {
+   
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .nav-links a:hover {
+    color: #e5ac73;
+  }
+  
+  .nav-links a.active {
+    color: #e5ac73; 
+  }
+  
+ 
+  .hero {
+    font-size: medium;
+    
+    background:url("./img/IMAGE\(3\).png") no-repeat; 
+    background-size: auto;
+    background-position: center;
+    padding: 140px ;
+    display: flex;
+    text-align: center;
+    min-height: 820px;
+    
+  }
+  
+ 
+  
+  .hero-content {
+    position: relative;
+    max-width: 600px;
+    z-index: 1; 
+  }
+  
+  .hero h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #292F36;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    color: #4D5053;
+    margin-bottom: 30px;
+  }
+  
+  .btn-primary {
+    background-color: #292F36;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition:  0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #e5ac73;
+  }
+
+
+.services {
+  font-family: "Jost", serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.service-item {
+  max-width: 300px;
+}
+
+.service-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.service-item p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.service-item a {
+  color: #CDA274;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sero{
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #f5f5f5;
+}
+
+.sero-content {
+ 
+  max-width: 50%;
+  text-align: left;
+}
+
+.sero-content h1 {
+
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.sero-content p {
+  font-family: "Jost", serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  margin: 0;
+}
+
+.contact p strong {
+  font-size: 1.2rem;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #292F36;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.sero-content {
+  max-width: 500px;
+  border-radius: 20px;
+}
